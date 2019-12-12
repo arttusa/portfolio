@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Solway&display=swap');
+
+.Tab {
+    background-color: purple;
+    text-align: right;
+    height: 3rem;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    padding-top: 1rem;
+}
+.Tab a {
+    color: white;
+    text-decoration: none;
+    margin-left: -1rem;
+    margin-right: 4rem;
+    font-family: 'Solway', serif;
+    font-size: 1.5rem;
+}
+.Tab a:hover {
+    text-decoration: underline;
+}
