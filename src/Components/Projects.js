@@ -1,10 +1,12 @@
 import React from 'react';
-
+import './ComponentStyles/Projects.css';
 
 const Projects = () => {
     return (
         <>
-            <p> Projekteja </p>
+            <div className="Projects" id="Projects">
+                <p>  </p>
+            </div>
         </>
     )
 }

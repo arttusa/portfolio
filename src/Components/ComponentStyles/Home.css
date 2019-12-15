@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Denk+One&display=swap');
+
+
+.Home {
+    height: 100vh;
+    background-color: blue;
+    background-color: #734ae8;
+    background-image: linear-gradient(315deg, #734ae8 0%, #89d4cf 74%);
+
+}
+.Text {
+    position: relative;
+    top: 50%;
+    color: white;
+    transform: translateY(-50%);
+    font-family: 'Denk One', sans-serif;
+    margin-left: 4% !important;
+    font-size: 2em;
+}
+
+.Name {
+    display: inline;
+    text-decoration: underline;
+}

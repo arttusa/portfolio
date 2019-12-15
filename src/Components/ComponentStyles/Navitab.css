@@ -1,22 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Solway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
 
 .Tab {
-    background-color: purple;
-    text-align: right;
-    height: 3rem;
-    margin-left: -8px;
-    margin-right: -8px;
-    margin-top: -8px;
-    padding-top: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background: rgba(0,0,0,0.1);
+    height: 3.5em;
+    padding-top: 0.9% !important;
 }
+
+.Tab > .active {
+    text-decoration: underline;
+}
+
 .Tab a {
+    font-size: 2em;
+    font-family: 'Orbitron', sans-serif;
     color: white;
-    text-decoration: none;
-    margin-left: -1rem;
-    margin-right: 4rem;
-    font-family: 'Solway', serif;
-    font-size: 1.5rem;
+    margin: 1% 1.5% !important;
 }
 .Tab a:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
+
+
