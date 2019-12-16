@@ -12,10 +12,12 @@ const App = () => {
         <>
             <div className="App">
                 <Navitab />
-                <Home />
-                <About />
-                <Projects />
-                <Contact />
+                <div>
+                    <Home />
+                    <About />
+                    <Projects />
+                    <Contact />
+                </div>
             </div>
         </>
     )

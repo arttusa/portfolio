@@ -3,16 +3,13 @@
 
 .Home {
     height: 100vh;
-    background-color: blue;
+    /*margin-top: 9.5vh !important;*/
     background-color: #734ae8;
     background-image: linear-gradient(315deg, #734ae8 0%, #89d4cf 74%);
-
 }
 .Text {
-    position: relative;
-    top: 50%;
+    padding-top: 40vh !important;
     color: white;
-    transform: translateY(-50%);
     font-family: 'Denk One', sans-serif;
     margin-left: 4% !important;
     font-size: 2em;

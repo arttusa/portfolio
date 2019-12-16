@@ -5,7 +5,14 @@ const Projects = () => {
     return (
         <>
             <div className="Projects" id="Projects">
-                <p>  </p>
+                <div className="Boxes">
+                    <div className="Box1"> 
+                        <div className="Header"> Osakeseuranta </div>
+                    </div>
+                    <div className="Box2"> 
+                        <div className="Header"> Interactive PDF </div>
+                    </div>
+                </div>
             </div>
         </>
     )
