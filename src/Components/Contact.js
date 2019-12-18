@@ -1,7 +1,6 @@
 import React from 'react';
 import './ComponentStyles/Contact.css';
 import Githublogo from './Media/Githublogo.png';
-import Githublogo_hover from './Media/Githublogo_hover.png';
 import Linkedinlogo from './Media/Linkedinlogo.png';
 
 

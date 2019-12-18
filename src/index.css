@@ -1,5 +1,5 @@
 .App {
-  
+  overflow-x: hidden;
 }
 
 * {    
@@ -7,7 +7,5 @@
     padding: 0 !important;
 }
 
-.Content {
-    margin-top: 30px !important;
-}
+
 

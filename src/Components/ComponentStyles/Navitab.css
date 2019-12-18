@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon&display=swap');
 
-.Tab {
+.Nav {
     position: fixed;
     top: 0;
     width: 100%;
-    text-align: center;
     height: 3.5em;
     padding-top: 0.9% !important;
     background-color: #b3cdd1;
@@ -13,19 +12,65 @@
     opacity: 0.9;
 }
 
+
+.Tab {
+    text-align: center;
+}
+
+.Nav label {
+    display: none;
+    font-size: 14px;
+    margin-left: 2% !important;
+    width: 5%
+}
+
+.toggle {
+    display: none;
+}
+
+@media(max-width: 500px) {
+    .Nav label {
+        display: block;
+        cursor: pointer;
+        font-size: xx-large;
+        color: whitesmoke;
+    }
+    .Tab {
+        text-align: center;
+        background-color: #b3cdd1;
+        background-image: linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%);
+        display: none;
+    }
+
+    .Tab a {
+        font-size: 2em;
+        font-family: 'Do Hyeon', sans-serif;
+        color: whitesmoke;
+        margin: 1% 1.5% !important;
+        display: block;
+    }
+    .toggle:checked + .Tab {
+        display: block;
+    }
+}
+
+
+
 .Tab > .active {
     text-decoration: underline;
 }
 
 .Tab a {
     font-size: 2em;
-    font-family: 'Orbitron', sans-serif;
-    color: white;
+    font-family: 'Do Hyeon', sans-serif;
+    color: whitesmoke;
     margin: 1% 1.5% !important;
 }
 .Tab a:hover {
     text-decoration: underline;
     cursor: pointer;
 }
+
+
 
 

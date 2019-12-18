@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import './ComponentStyles/Navitab.css'
 
@@ -6,7 +6,10 @@ import './ComponentStyles/Navitab.css'
 const Navitab = () => {
 
     return (
-        <>
+        <>  
+        <div className="Nav">
+            <label for="toggle"> &#9776; </label>
+            <input type="checkbox" id="toggle" className="toggle" />
             <div className="Tab">
                 <Link 
                 activeClass="active"
@@ -49,6 +52,7 @@ const Navitab = () => {
                     Contact
                 </Link>
             </div>
+        </div>
         </>
     )
 }
