@@ -11,24 +11,13 @@
     padding-left: 44% !important;
 }
 
-.Githublogo {
+.logo {
     height: 3em;
     transition: transform .2s;
     cursor: pointer;
-}
-
-.Githublogo:hover {
-    transform: scale(1.2);
-}
-
-.Linkedinlogo {
-    height: 3em;
-    cursor: pointer;
-    transition: transform .2s;
     margin-left: 2% !important;
-    
 }
 
-.Linkedinlogo:hover {
+.logo:hover {
     transform: scale(1.2);
 }

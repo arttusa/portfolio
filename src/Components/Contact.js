@@ -2,6 +2,7 @@ import React from 'react';
 import './ComponentStyles/Contact.css';
 import Githublogo from './Media/Githublogo.png';
 import Linkedinlogo from './Media/Linkedinlogo.png';
+import MailLogo from './Media/mail.svg';
 
 
 const Contact = () => {
@@ -9,9 +10,15 @@ const Contact = () => {
         <>
             <div className="Contact" id="Contact">
                 <div className="Logos">
-                    <img className="Githublogo" src={Githublogo} alt="Github Logo" />
-                    <img className="Linkedinlogo" src={Linkedinlogo} alt="LinkedIn Logo" />
-                        
+                    <a href="https://github.com/arttusa" target="_blank" rel="noopener noreferrer">
+                        <img className="logo" src={Githublogo} alt="Github Logo" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/arttu-salmij%C3%A4rvi-489b0a168/" target="_blank" rel="noopener noreferrer">
+                        <img className="logo" src={MailLogo} alt="Mail Logo" />
+                    </a>   
+                    <a href="https://www.linkedin.com/in/arttu-salmij%C3%A4rvi-489b0a168/" target="_blank" rel="noopener noreferrer">
+                        <img className="logo" src={Linkedinlogo} alt="LinkedIn Logo" />
+                    </a>
                 </div>
             </div>
         </>

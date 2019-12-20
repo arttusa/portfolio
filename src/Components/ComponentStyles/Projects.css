@@ -3,24 +3,39 @@
 
 
 
-
-.Projects {
-    height: 100vh;
-    width: 100%;
-    background-color: #9e8fb2;
-    background-image: linear-gradient(315deg, #9e8fb2 0%, #a7acd9 74%);
-}
-
-@media(min-width:750px) {
+@media(min-width:750px) and (min-height: 617px) {
+    .Projects {
+        height: 100vh;
+        width: 100%;
+        background-color: #9e8fb2;
+        background-image: linear-gradient(315deg, #9e8fb2 0%, #a7acd9 74%);
+    }
     .Boxes {
         padding-top: 6em !important;
         display: flex;
     }
 }
-@media(max-width:749px) {
+@media (max-width:749px)  {
+    .Projects {
+        padding-bottom: 2em !important;
+        width: 100%;
+        background-color: #9e8fb2;
+        background-image: linear-gradient(315deg, #9e8fb2 0%, #a7acd9 74%);
+    }
     .Boxes {
         padding-top: 4em !important;
-
+    }
+}
+@media (max-height:616px) {
+    .Projects {
+        width: 100%;
+        background-color: #9e8fb2;
+        background-image: linear-gradient(315deg, #9e8fb2 0%, #a7acd9 74%);
+    }
+    .Boxes {
+        padding-top: 6em !important;
+        display: flex;
+        padding-bottom: 3% !important;
     }
 }
 
@@ -65,7 +80,15 @@
     color: whitesmoke;
     margin-top: 3% !important;
 }
-
+.Info a {
+    margin-left: 2% !important;
+    text-decoration: none;
+}
+.Info a:active {
+    margin-left: 2% !important;
+    text-decoration: none;
+    color: white;
+}
 .Logosheader {
     text-align: center;
     font-size: 3vh;
@@ -74,13 +97,23 @@
     margin-top: 3% !important;
 }
 
-.Icons {
+.Icons1 {
     text-align: center;
+}
+.Icons2 {
+    text-align: center;
+    margin-top: 4.5rem !important;
 }
 
 .Icon {
     margin-top: 3% !important;
-    margin-left: 2% !important;
+    margin-left: 3% !important;
     padding-bottom: 6% !important;
     height: 3em;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.Icon:hover {
+    transform: scale(1.1);
 }

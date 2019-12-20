@@ -8,8 +8,8 @@ const About = () => {
                 
                 <div className="Headers"> Facts </div>
                 <div className="Texts"> 
-                    - 21-year-old student living in Turku <br></br>
-                    - studying second year at the University. <br></br>
+                    21-year-old student living in Turku <br></br>
+                    Studying second year at the University. <br></br>
                 </div>
                 <div className="Headers"> Experience </div>
                 <div className="Texts"> 
