@@ -5,15 +5,19 @@ const About = () => {
     return (
         <>
             <div className="About" id="About">
-                
-                <div className="Headers"> Facts </div>
-                <div className="Texts"> 
-                    21-year-old student living in Turku <br></br>
-                    Studying second year at the University. <br></br>
+                <div className="Item1">
+                    <div className="Headers"> Facts </div>
+                    <div className="Texts"> 
+                        21-year-old second year student living in Turku. <br></br>
+                        Interested in developing and investing. <br></br>
+                    </div>
                 </div>
-                <div className="Headers"> Experience </div>
-                <div className="Texts"> 
-                    Everyone has to start from somewhere. I'm extremely motivated 
+                <div className="Item2">
+                    <div className="Headers"> Experience </div>
+                    <div className="Texts"> 
+                    Everyone has to start from somewhere. 
+                    My <div className="Adjectives"> extreme motivation  </div> and <div className="Adjectives"> will to learn </div> compensates the lack of professional experience from the field.
+                    </div>
                 </div>
                 
             </div>

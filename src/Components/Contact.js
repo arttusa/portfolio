@@ -9,6 +9,9 @@ const Contact = () => {
     return (
         <>
             <div className="Contact" id="Contact">
+                <div className="info">
+                    Find out more about my projects in GitHub or contact me using email or LinkedIn.
+                </div>
                 <div className="Logos">
                     <a href="https://github.com/arttusa" target="_blank" rel="noopener noreferrer">
                         <img className="logo" src={Githublogo} alt="Github Logo" />

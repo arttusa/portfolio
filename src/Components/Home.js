@@ -6,7 +6,7 @@ const Home = () => {
         <>
             <div className="Home" id="Home">
                 <div className="Text">
-                    Hello, I'm <div className="Name"> Arttu Salmijärvi. </div> <br />  I study computer science at Turku University.
+                    Hello, I'm <div className="Name"> Arttu Salmijärvi. </div> <br />  I study computer science at the University of Turku.
                 </div>
             </div>
         </>

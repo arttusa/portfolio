@@ -14,8 +14,15 @@
         padding-top: 6em !important;
         display: flex;
     }
+    .Box2 {
+        background: rgba(0,0,0,0.1);
+        margin-left: 2% !important;
+        margin-right: 2% !important;
+        flex: 1;
+        border-radius: 8px;
+    }
 }
-@media (max-width:749px)  {
+@media (max-width:749px), (max-height:616px){
     .Projects {
         padding-bottom: 2em !important;
         width: 100%;
@@ -23,21 +30,16 @@
         background-image: linear-gradient(315deg, #9e8fb2 0%, #a7acd9 74%);
     }
     .Boxes {
-        padding-top: 4em !important;
+        padding: 4em 3em !important;
+    }
+    .Box2 {
+        background: rgba(0,0,0,0.1);
+        margin-top: 4em !important;
+        flex: 1;
+        border-radius: 8px;
     }
 }
-@media (max-height:616px) {
-    .Projects {
-        width: 100%;
-        background-color: #9e8fb2;
-        background-image: linear-gradient(315deg, #9e8fb2 0%, #a7acd9 74%);
-    }
-    .Boxes {
-        padding-top: 6em !important;
-        display: flex;
-        padding-bottom: 3% !important;
-    }
-}
+
 
 
 
@@ -49,17 +51,9 @@
     border-radius: 8px;
 }   
 
-.Box2 {
-    background: rgba(0,0,0,0.1);
-    margin-left: 2% !important;
-    margin-right: 2% !important;
-    flex: 1;
-    border-radius: 8px;
-}
-
 .Header {
     text-align: center;
-    font-size: 5vh;
+    font-size: 2.5rem;
     font-family: 'Denk One', sans-serif;
     color: whitesmoke;
     margin-top: 2% !important;
@@ -75,7 +69,7 @@
 .Info {
     text-align: left;
     margin-left: 2% !important;
-    font-size: 3vh;
+    font-size: 1.5rem;
     font-family: 'Denk One', sans-serif;
     color: whitesmoke;
     margin-top: 3% !important;
@@ -91,7 +85,7 @@
 }
 .Logosheader {
     text-align: center;
-    font-size: 3vh;
+    font-size: 2rem;
     font-family: 'Denk One', sans-serif;
     color: whitesmoke;
     margin-top: 3% !important;

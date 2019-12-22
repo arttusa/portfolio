@@ -12,7 +12,7 @@ const Projects = () => {
             <div className="Projects" id="Projects">
                 <div className="Boxes">
                     <div className="Box1"> 
-                        <div className="Header"> Osakeseuranta </div>
+                        <div className="Header"> OSAKESEURANTA </div>
                         <img className="PicOsakeseuranta" src={Osakeseuranta} alt="Pic Osakeseuranta" />
                         <div className="Info"> Website for stock tracking. User can pick stocks 
                         with search bar and add those to watchlist. Currently the database consists of every stock from Nasdaq Helsinki.
@@ -24,7 +24,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="Box2"> 
-                        <div className="Header"> Portfolio </div>
+                        <div className="Header"> PORTFOLIO </div>
                         <img className="PicOsakeseuranta" src={Osakeseuranta} alt="Pic Osakeseuranta" /> 
                         <div className="Info"> Portfolio website for information about myself and my projects. </div>
                         <div className="Icons2">  <div className="Logosheader"> Technologies </div>

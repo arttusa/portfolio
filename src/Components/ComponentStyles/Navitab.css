@@ -52,7 +52,9 @@
     .toggle:checked + .Tab {
         display: block;
     }
-}
+
+
+}   
 
 
 

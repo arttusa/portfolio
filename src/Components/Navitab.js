@@ -4,7 +4,6 @@ import './ComponentStyles/Navitab.css'
 
 
 const Navitab = () => {
-
     return (
         <>  
         <div className="Nav">
