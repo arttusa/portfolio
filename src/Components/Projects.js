@@ -1,6 +1,7 @@
 import React from 'react';
 import './ComponentStyles/Projects.css';
 import Osakeseuranta from './Media/Osakeseuranta.png';
+import PortfolioPic from './Media/Portfolio.png';
 import Nodelogo from './Media/node.svg';
 import AWSlogo from './Media/aws.svg';
 import Reactlogo from './Media/react.svg';
@@ -13,7 +14,7 @@ const Projects = () => {
                 <div className="Boxes">
                     <div className="Box1"> 
                         <div className="Header"> OSAKESEURANTA </div>
-                        <img className="PicOsakeseuranta" src={Osakeseuranta} alt="Pic Osakeseuranta" />
+                        <img className="PicOsakeseuranta" src={Osakeseuranta} alt="Osakeseuranta" />
                         <div className="Info"> Website for stock tracking. User can pick stocks 
                         with search bar and add those to watchlist. Currently the database consists of every stock from Nasdaq Helsinki.
                         <a href="https://osakeseuranta.net" target="_blank" rel="noopener noreferrer"> osakeseuranta.net  </a> </div>
@@ -25,7 +26,7 @@ const Projects = () => {
                     </div>
                     <div className="Box2"> 
                         <div className="Header"> PORTFOLIO </div>
-                        <img className="PicOsakeseuranta" src={Osakeseuranta} alt="Pic Osakeseuranta" /> 
+                        <img className="PicOsakeseuranta" src={PortfolioPic} alt="Portfolio" /> 
                         <div className="Info"> Portfolio website for information about myself and my projects. </div>
                         <div className="Icons2">  <div className="Logosheader"> Technologies </div>
                             <img className="Icon" src={Reactlogo} alt="React icon" />
