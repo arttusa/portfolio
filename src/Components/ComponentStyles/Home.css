@@ -3,19 +3,33 @@
 
 .Home {
     height: 100vh;
+    width: 100%;
     /*margin-top: 9.5vh !important;*/
     background-color: #734ae8;
     background-image: linear-gradient(315deg, #734ae8 0%, #89d4cf 74%);
+    text-align: center;
 }
 .Text {
     padding-top: 40vh !important;
     color: white;
     font-family: 'Denk One', sans-serif;
-    margin-left: 4% !important;
     font-size: 2em;
+
 }
 
 .Name {
     display: inline;
     text-decoration: underline;
+}
+
+.MuiSvgIcon-root {
+    fill: white !important;
+    height: 7em !important;
+    width: auto !important;
+    margin-top: 10% !important;
+    transition: transform .1s;
+    cursor: pointer;
+}
+.MuiSvgIcon-root:hover {
+    transform: scale(1.1);
 }

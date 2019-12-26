@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-scroll';
 import './ComponentStyles/Navitab.css'
 
@@ -16,7 +16,7 @@ const Navitab = () => {
                 spy={true}
                 smooth={true}
                 offset={0}
-                duration={500}
+                duration={800}
                 >
                     Home
                 </Link>
@@ -26,7 +26,7 @@ const Navitab = () => {
                 spy={true}
                 smooth={true}
                 offset={0}
-                duration={500}
+                duration={800}
                 >
                     About
                 </Link>
@@ -36,7 +36,7 @@ const Navitab = () => {
                 spy={true}
                 smooth={true}
                 offset={0}
-                duration={500}
+                duration={800}
                 >
                     Projects
                 </Link>
@@ -46,7 +46,7 @@ const Navitab = () => {
                 spy={true}
                 smooth={true}
                 offset={0}
-                duration={500}
+                duration={800}
                 >
                     Contact
                 </Link>

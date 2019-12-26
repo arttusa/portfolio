@@ -9,21 +9,20 @@
 }
 
 .Item1 {
-    margin-top: 8% !important;
-    flex: 1;
-    margin-left: 5% !important;
+    margin-top: 13% !important;
+    margin-left: 4% !important;
     background: rgba(0,0,0,0.1);
     height: 50vh;
     border-radius: 8px;
+    width: 60%;
 }
-.Item2 {
-    margin-left: 2% !important;
+.Picture {
+    height: 60vh;
     margin-top: 8% !important;
-    flex: 1;
-    margin-right: 5% !important;
-    background: rgba(0,0,0,0.1);
-    height: 50vh;
-    border-radius: 8px;
+    margin-left: 8% !important;
+    border: 10px solid #ddd;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 .Headers {
