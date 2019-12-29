@@ -10,7 +10,6 @@ const Home = () => {
                 <div className="Text">
                     Hello, I'm <div className="Name"> Arttu Salmijärvi. </div> <br />  I study computer science at the University of Turku.
                 </div>
-                <div> 
                 <Link 
                 activeClass="active"
                 to="About"
@@ -21,7 +20,6 @@ const Home = () => {
                 >
                     <ArrowDown />
                 </Link>
-                </div>
             </div>
         </>
     )
