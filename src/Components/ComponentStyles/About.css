@@ -2,7 +2,7 @@
 
 
 
-
+/* Leveä ja korkea */
 @media(min-width:801px) and (min-height: 617px) {
     .About {
         height: 100vh;
@@ -13,7 +13,7 @@
     }
     .Picture {
         height: 60vh;
-        margin-top: 8% !important;
+        margin-top: 11% !important;
         margin-left: 8% !important;
         border: 10px solid #ddd;
         border-radius: 10px;
@@ -28,10 +28,11 @@
         width: 60%;
     }
 }
+/* Kapea ja lyhyt */
 @media (max-width:800px), (max-height:616px){
     .About {
         padding-bottom: 2em !important;
-        padding-top:  6em !important;
+        padding-top:  5em !important;
         background-color: #6a93cb;
         background-image: linear-gradient(315deg, #6a93cb 0%, #a4bfef 74%);
         padding-left: 2% !important;
@@ -51,7 +52,7 @@
         border-radius: 8px;
         width: 60%;
         text-align: left;
-        padding: 1% !important;
+        padding: 5% !important;
     }
 }
 
@@ -74,7 +75,3 @@
     
 }
 
-.Adjectives {
-    color: rgb(161, 62, 37);
-    display: inline;
-}

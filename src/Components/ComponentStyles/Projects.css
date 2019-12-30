@@ -19,6 +19,8 @@
         margin-right: 2% !important;
         flex: 1;
         border-radius: 8px;
+        padding-right: 2% !important;
+        padding-left: 2% !important;
     }
 }
 @media (max-width:749px) and (max-height:700px){
@@ -72,6 +74,8 @@
         background: rgba(0,0,0,0.1);
         flex: 1;
         border-radius: 8px;
+        padding-right: 2% !important;
+        padding-left: 2% !important;
     }
 }
 
@@ -83,6 +87,8 @@
     background: rgba(0,0,0,0.1);
     flex: 1;
     border-radius: 8px;
+    padding-right: 2% !important;
+    padding-left: 2% !important;
 }   
 
 .Header {
@@ -127,10 +133,11 @@
 
 .Icons1 {
     text-align: center;
+    margin-top: 3.5rem !important;
 }
 .Icons2 {
     text-align: center;
-    margin-top: 4.5rem !important;
+    margin-top: 3rem !important;
 }
 
 .Icon {

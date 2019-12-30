@@ -15,8 +15,7 @@ const Projects = () => {
                     <div className="Box1"> 
                         <div className="Header"> OSAKESEURANTA </div>
                         <img className="PicOsakeseuranta" src={Osakeseuranta} alt="Osakeseuranta" />
-                        <div className="Info"> Website for stock tracking. User can pick stocks 
-                        with search bar and add those to watchlist. Currently the database consists of every stock from Nasdaq Helsinki.
+                        <div className="Info"> Website for stock tracking. My first real fullstack project which combines my two hobbies developing and investing.
                         <a href="https://osakeseuranta.net" target="_blank" rel="noopener noreferrer"> osakeseuranta.net  </a> </div>
                         <div className="Icons1">  <div className="Logosheader"> Technologies </div>
                             <img className="Icon" src={Reactlogo} alt="React icon" />
@@ -27,7 +26,7 @@ const Projects = () => {
                     <div className="Box2"> 
                         <div className="Header"> PORTFOLIO </div>
                         <img className="PicOsakeseuranta" src={PortfolioPic} alt="Portfolio" /> 
-                        <div className="Info"> Portfolio website for information about myself and my projects. </div>
+                        <div className="Info"> Portfolio website for information about myself and my projects. In this project I concentrated in design and responsiveness. </div>
                         <div className="Icons2">  <div className="Logosheader"> Technologies </div>
                             <img className="Icon" src={Reactlogo} alt="React icon" />
                             <img className="Icon" src={Firebaselogo} alt="Firebase icon" />

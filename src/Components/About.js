@@ -15,8 +15,8 @@ const About = () => {
                     </div>
                     <div className="Headers"> Experience </div>
                     <div className="Texts"> 
-                    Everyone has to start from somewhere. 
-                    My <div className="Adjectives"> extreme motivation  </div> and <div className="Adjectives"> will to learn </div> compensates the lack of professional experience from the field.
+                    In the last 1.5 years I have gone from zero knowledge of coding to building websites. 
+                    My goal to year 2020 is to gain as much experience as possible from summer job.  
                     </div>
                 </div>
                 <img className="Picture" src={Picture} alt="Arttu" />
