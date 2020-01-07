@@ -19,7 +19,7 @@
 
 .Name {
     display: inline;
-    text-decoration: underline;
+    color: palegreen;
 }
 
 .MuiSvgIcon-root {

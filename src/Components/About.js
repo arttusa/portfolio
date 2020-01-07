@@ -7,16 +7,13 @@ const About = () => {
         <>
             <div className="About" id="About">
                 <div className="Item1">
-                    <div className="Headers"> Facts </div>
+                    <div className="Headers"> Some facts about me</div>
                     <div className="Texts"> 
-                        21-year-old student living in Turku. <br></br>
-                        I'm interested in developing and investing. <br></br>
-                        
-                    </div>
-                    <div className="Headers"> Experience </div>
-                    <div className="Texts"> 
-                    In the last 1.5 years I have gone from zero knowledge of coding to building websites. 
-                    My goal to year 2020 is to gain as much experience as possible from summer job.  
+                        <li> I'm 21-year-old student living in Turku </li>
+                        <li> My biggest interests are developing and investing </li>
+                        <li> In my own time I like to exercise and do my developing projects </li>
+                        <li> Also a big fan of different tv-series and movies </li>
+                        <li> I'm looking for first developer summer job </li>
                     </div>
                 </div>
                 <img className="Picture" src={Picture} alt="Arttu" />
