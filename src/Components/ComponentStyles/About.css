@@ -11,14 +11,7 @@
         padding-left: 2% !important;
         display: flex;
     }
-    .Picture {
-        height: 60vh;
-        margin-top: 11% !important;
-        margin-left: 8% !important;
-        border: 10px solid #ddd;
-        border-radius: 10px;
-        padding: 5px;
-    }
+
     .Item1 {
         margin-top: 13% !important;
         margin-left: 4% !important;
