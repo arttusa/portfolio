@@ -11,12 +11,8 @@ const App = () => {
     return (
         <>
             <div className="App">
-                <Navitab />
                 <div>
                     <Home />
-                    <About />
-                    <Projects />
-                    <Contact />
                 </div>
             </div>
         </>
